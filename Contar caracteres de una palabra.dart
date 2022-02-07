@@ -9,7 +9,7 @@ void main() {
   print('Escribe una palabra: ');
   Palabra = stdin.readLineSync();
 
-  //Se mide su longitud 
+  //Medimos su longitud 
   Longitud = Palabra.length;
 
   print('Ingresaste --> $Longitud caracteres');
